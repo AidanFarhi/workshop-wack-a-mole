@@ -12,6 +12,7 @@ body {
 #whack-a-mole {
   background-color: darkolivegreen;
   border: solid 20px #000;
+  border-radius: 10px;
   padding: 20px;
   width: 360px;
   display: flex;

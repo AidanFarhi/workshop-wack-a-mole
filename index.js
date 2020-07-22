@@ -8,13 +8,13 @@ const gameArea = document.getElementById('whack-a-mole')
 // this function gets us a random number in a range
 function getRandom(min, max) {
     return Math.random() * (max - min) + min;
-}
+};
 
-// this fires whatever we put here at an interval set by us
+//this fires whatever we put inside at an interval set by us
 setInterval(function() {
     let randomHoleIndex = Math.floor(getRandom(0, holes.length))
     holes[randomHoleIndex].classList.toggle('mole')
-}, 1000)
+}, 2000);
 
 // this is where the action happens
 gameArea.addEventListener('click', function(click) {

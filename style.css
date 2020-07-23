@@ -30,3 +30,7 @@ body {
 .mole {
   background-image: url("images/mole.png");
 }
+
+.special {
+  background-image: url("images/mario.png");
+}
